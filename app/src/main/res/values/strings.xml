@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Stress Detector</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="text">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="instruct">Over the last two weeks, how often have you been bothered by any of the following problems?</string>
+    <string name="q1">1. Little interest or pleasure in doing things?	</string>
+    <string name="q2">2. Feeling down, depressed, or hopeless?		</string>
+    <string name="q3">3. Trouble falling or staying asleep, or sleeping too much?		</string>
+    <string name="q4">4. Feeling tired or having little energy?		</string>
+    <string name="q5">5. Poor appetite or overeating?		</string>
+    <string name="q6">6. Feeling bad about yourself - or that you are a failure or have let yourself or your family down?	</string>
+    <string name="q7">7. Trouble concentrating on things, such as reading the newspaper or watching television?		</string>
+    <string name="q8">8. Moving or speaking so slowly that other people could have noticed?
+                         Or the opposite - being so fidgety or restless that you have been moving around a lot more than usual?		</string>
+    <string name="q9">9. Thoughts that you would be better off dead, or of hurting yourself in some way?		</string>
+    <string name="ans1">Not at all</string>
+    <string name="ans2">Several days</string>
+    <string name="ans3">More than half of the days</string>
+    <string name="ans4">Nearly everyday</string>
+    <string name="submit">Submit</string>
+    <string name="month_prompt">Choose a month</string>
+    <string name="year_prompt">Choose a year</string>
+    <string-array name="Month_Name">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+    <string-array name="Year">
+        <item>2017</item>
+        <item>2018</item>
+        <item>2019</item>
+        <item>2020</item>
+        <item>2021</item>
+        <item>2022</item>
+        <item>2023</item>
+        <item>2024</item>
+        <item>2025</item>
+        <item>2026</item>
+        <item>2027</item>
+        <item>2028</item>
+        <item>2029</item>
+        <item>2030</item>
+    </string-array>
+</resources>

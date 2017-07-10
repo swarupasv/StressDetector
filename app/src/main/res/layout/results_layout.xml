@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.swarupa.stressdetector.Results">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Your Results:"
+        style="@style/Base.TextAppearance.AppCompat.Headline"
+        android:focusable="true"
+        android:id="@+id/title"
+        android:textColor="#df6262"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:visibility="visible" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="15dp"
+        android:id="@+id/text"
+        android:text="Hey"
+        android:visibility="visible"
+        android:typeface="sans"
+        android:textStyle="normal"
+        android:textColor="#9263cf" />
+
+</LinearLayout>

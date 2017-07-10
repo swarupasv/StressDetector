@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#b1ffd4ff">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/datePicker"
+        android:layout_alignParentTop="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:clickable="true"
+        android:spinnersShown="false"
+        style="@style/AppTheme"
+        android:focusable="false" />
+
+            <EditText
+                android:hint="So What'sup Today"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2"
+                android:layout_marginTop="70dp"
+                android:layout_alignTop="@+id/datePicker"
+                android:layout_alignStart="@+id/datePicker"
+                android:longClickable="true"
+                style="@style/Base.V12.Widget.AppCompat.EditText"
+                android:layout_alignEnd="@+id/datePicker"
+                android:editable="true"
+                android:typeface="sans"
+                android:textStyle="normal"
+                android:textSize="@dimen/abc_text_size_title_material" />
+
+
+
+    <Button
+        android:text="Submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:elevation="0dp"
+        android:clickable="true"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
